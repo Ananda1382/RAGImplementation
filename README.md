@@ -34,17 +34,19 @@ pip install openai pandas numpy
 Place the car listing dataset (CarListing_2023Septemberdata_1.csv) in the ExternalData directory.
 
 ### Usage
-1. ## Initial Data Processing
+### 1. Initial Data Processing
 The script processes the car listing dataset to generate embeddings, which are then stored in both CSV and pickle (.pkl) formats to optimize performance.
 
 Run the following command to execute the script:
 
 python buy_a_car.py
-2. ## Querying for Car Suggestions
+
+### 2. Querying for Car Suggestions
 To get car purchase recommendations, modify the script or integrate it into an application that calls:
 
 suggestion_to_buy_a_car("I want to buy a car in December. Help me choose one under $30,000.")
-File Structure
+
+### File Structure
 /RAGImplementation
 │── ExternalData/
 │   ├── CarListing_2023Septemberdata_1.csv
